@@ -1,0 +1,4 @@
+<<h1> See all of the list of the figures below: </h1>
+ <% @figures.all.each.with_index(1) do |figure, index| %>
+   <p> <%= index%>. <%= figure.name %> </p>
+ <%end %>
